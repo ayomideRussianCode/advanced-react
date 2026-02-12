@@ -5,10 +5,17 @@ import {data} from '../../data';
 const UseStateArray = () => {
 
   const  [people, setPeople] = useState(data);
+  // const removeItem = (id) => {
+  //   let newPeople = people.filter((person)=> person.id !== id)
+  //   setPeople(newPeople)
+  // }
+
   const removeItem = (id) => {
-    let newPeople = people.filter((person)=> person.id !== id)
-    setPeople(newPeople)
-  }
+    setPeople((oldPeople) => {
+      let newPeople = oldPeople.filter((person) => person.id !== id
+      );
+    return newPeople;
+    });}
   return (
     <div>
       {people.map((person)=> {

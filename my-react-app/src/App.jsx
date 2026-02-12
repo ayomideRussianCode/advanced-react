@@ -1,5 +1,5 @@
 import './index.css';
-import Setup from './1-useState/setup/2-useState-basics';
+import Setup from './1-useState/setup/3-useState-array';
 
 export default function App(){
     return (

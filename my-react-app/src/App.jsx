@@ -1,13 +1,10 @@
+import './index.css';
+import Setup from './1-useState/setup/2-useState-basics';
 
-import './App.css'
-
-function App() {
-
-  return (
-    <div className='container'>
-      <h2>Advanced react</h2>
-    </div>
-  )
+export default function App(){
+    return (
+        <div className='container'>
+            <Setup/>
+        </div>
+    )
 }
-
-export default App

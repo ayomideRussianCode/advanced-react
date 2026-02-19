@@ -1,5 +1,5 @@
 import './index.css';
-import Setup from './5-useRef/setup/1-useRef-basics';
+import Setup from './6-useReducer/setup/index';
 
 export default function App(){
     return (

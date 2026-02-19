@@ -1,5 +1,5 @@
 import './index.css';
-import Setup from './2-useEffect/setup/3-useEffect-fetch-data';
+import Setup from './3-conditional-rendering/setup/3-show-hide';
 
 export default function App(){
     return (

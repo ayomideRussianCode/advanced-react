@@ -1,5 +1,5 @@
 import './index.css';
-import Setup from './7-prop-drilling/setup/1-prop-drilling';
+import Setup from './8-useContext/setup/1-context-api';
 
 export default function App(){
     return (

@@ -1,5 +1,5 @@
 import './index.css';
-import Setup from './8-useContext/setup/1-context-api';
+import Setup from './10-prop-types/setup/index';
 
 export default function App(){
     return (
